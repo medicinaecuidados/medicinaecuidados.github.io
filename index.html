@@ -40,7 +40,7 @@
     .hero-card{background:radial-gradient(1200px 400px at top right, rgba(220,38,38,.12),transparent),var(--card);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:16px}
     .hero-card .imgbox{aspect-ratio:4/3;background:#0b1a32;border:1px dashed rgba(255,255,255,.14);border-radius:12px;display:grid;place-items:center;color:var(--muted)}
 
-    section{padding:56px 0;border-top:1px solid rgba(148,163,184,.08)}
+    section{padding:26px 0;border-top:1px solid rgba(148,163,184,.08)}
     h2{font-size:clamp(22px,4vw,34px);margin:0 0 8px}
     .lead{color:var(--muted)}
 
@@ -86,7 +86,7 @@
           <small class="muted">Ilha do Governador • Rio de Janeiro</small>
         </div>
       </div>
-      <a class="cta" href="#contato">Fale conosco</a>
+      <a class="cta" target='_blank' href="https://wa.me/5521986589568">Fale conosco</a>
     </div>
   </header>
 
@@ -134,64 +134,12 @@
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- SOBRE -->
-    <section id="sobre">
-      <div class="container about">
-        <div>
-          <h2>Maria Cristina de Resende</h2>
-          <p class="lead">Psicóloga clínica (CRP 05/38554), abordagem junguiana e ênfase em saúde mental da mulher. Atendimentos presenciais e on‑line, supervisão clínica e facilitação de grupos com arte e imaginação ativa.</p>
-          <ul>
-            <li>Mestranda no Programa HCTE/UFRJ (Ciência, Tecnologia e Educação)</li>
-            <li>Especialização em Psicologia Junguiana (USU) e Saúde da Mulher</li>
-            <li>Experiência com Arteterapia e processos de individuação</li>
-          </ul>
-          <div class="actions" style="margin-top:8px">
-            <a class="btn" href="#contato">Agendar conversa</a>
-            <a class="btn ghost" href="#atendimentos">Ver atendimentos</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="imgbox">
-            <span><img src="assets/maria_cristina_perfil.jpg" alt="Maria Cristina de Resende" /></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ATENDIMENTOS -->
-    <section id="atendimentos">
+      
+    <!-- FORMULÁRIO SUBLOCAÇÃO -->
+    
       <div class="container">
-        <h2>Atendimentos em Psicologia</h2>
-        <p class="lead">Cuidado integrativo dentro de um <em>setting</em> ético e acolhedor.</p>
-        <div class="grid" style="margin-top:16px">
-          <div class="card">
-            <h3 style="margin-top:0">Modalidades</h3>
-            <ul>
-              <li>Psicoterapia individual (presencial e on‑line)</li>
-              <li>Foco em saúde mental da mulher / ciclos de vida</li>
-              <li>Supervisão de prática clínica</li>
-              <li>Grupos terapêuticos com arte</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3 style="margin-top:0">Abordagem</h3>
-            <ul>
-              <li>Referencial junguiano, diálogo mente‑corpo</li>
-              <li>Ferramentas expressivas e imaginação ativa</li>
-              <li>Construção de sentido e autonomia</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FORMULÁRIOS (Formspree) -->
-    <section id="contato">
-      <div class="container">
-        <h2>Fale Conosco</h2>
-        <p class="lead">Escolha o formulário adequado para sua necessidade. Responderemos em breve.</p>
+        <p class="lead">Solicite uma sublocação preenchendo o formulário abaixo e responderemos em breve.</p>
 
         <div class="grid" style="margin-top:16px">
           <!-- SUBLOCAÇÃO -->
@@ -248,6 +196,81 @@
             </div>
             <p id="status-pro" class="lead" style="margin-top:8px;display:none"></p>
           </form>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- MAPA / LOCALIZAÇÃO: embed do Google Maps com endereço pinado -->
+    <section id="localizacao">
+      <div class="container">
+        <h2>Localização</h2>
+        <p class="lead">Ponto nobre da Ilha do Governador</p>
+        <div class="map-embed">
+          <!-- Substitua o src abaixo pelo embed do seu endereço exato (Menu: Compartilhar > Incorporar um mapa) -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.7164369407265!2d-43.20694122439403!3d-22.804469834222907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9979005816026f%3A0x43f1c8eda1fb30b6!2sMedicinae%20Cuidados%20Integrativos%20-%20Consult%C3%B3rios%20Terap%C3%AAuticos%20Compartilhados!5e1!3m2!1sen!2sbr!4v1758464386503!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  
+    <!-- SOBRE  MARIA CRISTINA-->
+    <section id="sobre">
+      <div class="container about">
+        <div>
+          <h2>Maria Cristina de Resende</h2>
+          <p class="lead">Psicóloga clínica (CRP 05/38554), abordagem junguiana e ênfase em saúde mental da mulher. Atendimentos presenciais e on‑line, supervisão clínica e facilitação de grupos com arte e imaginação ativa.</p>
+          <ul>
+            <li>Mestranda no Programa HCTE/UFRJ (Ciência, Tecnologia e Educação)</li>
+            <li>Especialização em Psicologia Junguiana (USU) e Saúde da Mulher</li>
+            <li>Experiência com Arteterapia e processos de individuação</li>
+          </ul>
+          <div class="actions" style="margin-top:8px">
+            <a class="btn" target='_blank' href="https://wa.me/5521986589568">WhatsApp</a>
+            <a class="btn ghost" href="#contato">Formulário de contato</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="imgbox">
+            <span><img src="assets/maria_cristina_perfil.jpg" alt="Maria Cristina de Resende" /></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATENDIMENTOS -->
+    <section id="atendimentos">
+      <div class="container">
+        <h2>Atendimentos em Psicologia</h2>
+        <p class="lead">Cuidado integrativo dentro de um <em>setting</em> ético e acolhedor.</p>
+        <div class="grid" style="margin-top:16px">
+          <div class="card">
+            <h3 style="margin-top:0">Modalidades</h3>
+            <ul>
+              <li>Psicoterapia individual (presencial e on‑line)</li>
+              <li>Foco em saúde mental da mulher / ciclos de vida</li>
+              <li>Supervisão de prática clínica</li>
+              <li>Grupos terapêuticos com arte</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Abordagem</h3>
+            <ul>
+              <li>Referencial junguiano, diálogo mente‑corpo</li>
+              <li>Ferramentas expressivas e imaginação ativa</li>
+              <li>Construção de sentido e autonomia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIOS (Formspree) -->
+    <section id="contato">
+      <div class="container">
+        <h2>Solicitar Atendimento</h2>
+            <p class="lead">Prencha o formulário abaixo ou <a href='https://wa.me/5521986589568'>envie uma mensagem no WhatsApp</a>, como preferir. Responderemos em breve.</p>
+
+        <div class="grid" style="margin-top:16px">
 
           <!-- PSICOTERAPIA -->
           <form class="form" id="form-pacientes" action="https://formspree.io/f/xwprepdg" method="POST" data-formspree>
@@ -303,19 +326,9 @@
       </div>
     </section>
 
-    <!-- MAPA / LOCALIZAÇÃO: embed do Google Maps com endereço pinado -->
-    <section id="localizacao">
-      <div class="container">
-        <h2>Localização</h2>
-        <p class="lead">Ponto nobre da Ilha do Governador</p>
-        <div class="map-embed">
-          <!-- Substitua o src abaixo pelo embed do seu endereço exato (Menu: Compartilhar > Incorporar um mapa) -->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.7164369407265!2d-43.20694122439403!3d-22.804469834222907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9979005816026f%3A0x43f1c8eda1fb30b6!2sMedicinae%20Cuidados%20Integrativos%20-%20Consult%C3%B3rios%20Terap%C3%AAuticos%20Compartilhados!5e1!3m2!1sen!2sbr!4v1758464386503!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-  </main>
-
+      
+      </main>
+    
   <footer>
     <div class="container">
       <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap">
